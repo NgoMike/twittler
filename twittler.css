@@ -1,0 +1,99 @@
+header .title {
+	float: left;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 50px;
+	color: navy;
+	margin: 0px 0px 0px 10px;
+	display: inline-block;
+}
+
+h2 {
+	float: left;
+	padding: 20px 20px;
+	margin-top: 10px;
+	font-family: "Lucida Sans Typewriter";
+	color: black;
+	font-size: 15px;
+}
+
+img {
+	float: left;
+	height: 80px;
+	width: 100px;
+}
+
+body {
+	text-align: center;
+	background: #F0F8FF;
+	font-weight: 250;
+	letter-spacing: 1px;
+	font-family:  "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+.refresh-tweet-button {
+	float: center;
+	cursor: pointer;
+	border-style: solid;
+	border: none;
+	border-radius: 10px;
+    border-width: 2px;
+    padding: 5px 20px;
+    background: #7FDBFF;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 80px;
+}
+
+.refresh-tweet-button:hover {
+    background-color: #00FFFF;
+}
+
+.tweetDisplay {
+	margin-top: 40px;
+}
+
+.tweetDisplay .tweet {
+	line-height: 20px;
+}
+
+.tweetDisplay .tweet .user {
+    font-size: 13.5px;
+    font-weight: 400;
+    cursor: pointer;
+    color: blue;
+    transition: all .15s ease-in-out;
+}
+
+.tweetDisplay .tweet .user:hover {
+    color: teal;
+}
+
+.tweetDisplay .tweet .message {
+    font-size: 16px;
+    color: black;
+}
+
+.tweetDisplay .timestamp {
+    font-size: 12px;
+    color: lime;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
